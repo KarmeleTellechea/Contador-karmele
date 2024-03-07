@@ -2,7 +2,7 @@
   const valorcontador = document.getElementById('valor');
 
   function incrmentalo(){
-    console.log("esto es rojo")
+    
     contador++;
     valorcontador.textContent = contador;
    }
@@ -15,15 +15,18 @@
 
     }
     function resetear(){
-
-      valorcontador.textcontent= 0
+      console.log("vamos a resetear")
+     contador = 0; 
+     valorcontador.textContent=contador;
 
     }
 
   const botonincrementar = document.getElementById('incrementar');
   const botondecrementar = document.getElementById('decrementra');
-  const botonresetear = document.getElementById("resetear")
-   console.log(botonincrementar)
+  const botonresetear = document.getElementById("resetear");
+   
+  botonresetear.onclick = resetear
+
   botonincrementar.onclick = incrmentalo
   
   botondecrementar.onclick = decrementra
