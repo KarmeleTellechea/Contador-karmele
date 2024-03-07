@@ -15,11 +15,11 @@
         } 
 
     }
-    
+
     function resetear(){
       console.log("vamos a resetear")
-     contador = 0; 
-     valorcontador.textContent=contador;
+      contador = 0; 
+      valorcontador.textContent=contador;
 
     }
 
