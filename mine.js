@@ -6,6 +6,7 @@
     contador++;
     valorcontador.textContent = contador;
    }
+
   function decrementra(){
   
         if (contador > 0 ){
@@ -14,6 +15,7 @@
         } 
 
     }
+    
     function resetear(){
       console.log("vamos a resetear")
      contador = 0; 
