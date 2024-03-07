@@ -1,22 +1,22 @@
   let contador = 0;
+  const valorcontador = document.getElementById('valor');
 
   function incrmentalo(){
     console.log("esto es rojo")
     contador++;
-    valorContador.textContent = contador;
+    valorcontador.textContent = contador;
    }
   function decrementra(){
   
         if (contador > 0 ){
             contador--;
-            valorContador.textContent = contador;
+            valorcontador.textContent = contador;
         } 
     }
 
-  const botonIncrementar = document.getElementById('incrementar');
-  const botonDecrementar = document.getElementById('decrementra');
-  const valorContador = document.getElementById('valor');
-
-  botonIncrementar.onclick= console.log("estoy cliqueando")
+  const botonincrementar = document.getElementById('incrementar');
+  const botondecrementar = document.getElementById('decrementra');
   
-  botonDecrementar.onclick= console.log("estoy cliqueando")
+  botonincrementar.onclick = console.log("estoy cliqueando")
+  
+  botondecrementar.onclick = console.log("estoy cliqueando")
