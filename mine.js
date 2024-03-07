@@ -12,11 +12,18 @@
             contador--;
             valorcontador.textContent = contador;
         } 
+
+    }
+    function resetear(){
+
+      valorcontador.textcontent= 0
+
     }
 
   const botonincrementar = document.getElementById('incrementar');
   const botondecrementar = document.getElementById('decrementra');
+  const botonresetear = document.getElementById("resetear")
+   console.log(botonincrementar)
+  botonincrementar.onclick = incrmentalo
   
-  botonincrementar.onclick = console.log("estoy cliqueando")
-  
-  botondecrementar.onclick = console.log("estoy cliqueando")
+  botondecrementar.onclick = decrementra
